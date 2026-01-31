@@ -18,5 +18,5 @@ The internet is full of irrational arguments and fake news. Copy-pasting text to
 
 2. **Clone the Repo**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/TruthLens.git
-   cd TruthLens
+   git clone https://github.com/SKFXC/Truth-Lens.git
+   cd Truth-Lens
