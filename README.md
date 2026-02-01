@@ -1,22 +1,24 @@
-# Truth Lens 👁️
-A Python-based floating window that performs real-time fact-checking on any text on your screen using OCR and AI.
+# Debate Assistant
 
-## 🚀 The Problem
-The internet is full of irrational arguments and fake news. Copy-pasting text to verify it takes too long.
+Debate Assistant is a Python-based desktop utility designed for real-time text verification and fact-checking. It utilizes Optical Character Recognition (OCR) to extract text from the screen and processes it via user-configured Large Language Models (LLMs) such as DeepSeek or Perplexity.
 
-## 💡 The Solution
-**Truth Lens** is a transparent overlay. Move it over a tweet, comment, or article, click **SCAN**, and it will:
-1. Capture the screen area (OCR).
-2. Send the text to the Perplexity/OpenAI API.
-3. Return a verdict with citations instantly.
+## Features
 
-## 🛠️ Installation
+- **Transparent Overlay:** Functions as a floating window that allows direct scanning of underlying content.
+- **OCR Integration:** Uses Tesseract OCR to convert screen pixels into machine-readable text.
+- **Universal API Support:** Compatible with any OpenAI-format API (DeepSeek, Perplexity, etc.).
+- **Dynamic Interface:** Supports Light and Dark modes with a custom, borderless UI.
+- **Resizable Window:** Includes a custom grip handler for resizing the capture area.
 
-1. **Install Tesseract OCR**
-   - Windows: [Download Installer](https://github.com/UB-Mannheim/tesseract/wiki)
-   - Mac: `brew install tesseract`
+## Prerequisites
 
-2. **Clone the Repo**
+1. **Python 3.8+**
+2. **Tesseract OCR:** This software requires the Tesseract engine to be installed on the host machine.
+   - Windows users: Ensure `tesseract.exe` is in the system PATH or configured in `main.py`.
+
+## Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/SKFXC/Truth-Lens.git
-   cd Truth-Lens
+   git clone https://github.com/YOUR_USERNAME/Debate-Assistant.git
+   cd Debate-Assistant
